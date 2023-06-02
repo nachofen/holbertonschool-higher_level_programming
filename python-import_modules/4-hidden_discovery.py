@@ -6,4 +6,4 @@ if __name__ == "__main__":
     sorted_names = sorted(names)
     for name in sorted_names:
         if sorted_names[:2] != "__":
-            print("{}".format(sorted_names))
+            print("{}".format(name))
