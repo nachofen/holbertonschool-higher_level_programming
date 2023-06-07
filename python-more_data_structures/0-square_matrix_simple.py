@@ -3,5 +3,6 @@ def square_matrix_simple(matrix=[]):
     matrix_2 = []
     for line in matrix:
         for num in line:
-            matrix_2.append(num ** 2)
+            sq_num = num ** 2
+            matrix_2.append(sq_num)
     return (matrix_2)
