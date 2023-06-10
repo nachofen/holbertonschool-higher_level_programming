@@ -19,6 +19,8 @@ def roman_to_int(roman_string):
             number_list.append(500)
         elif number == "M":
             number_list.append(1000)
+        else:
+            number_list = number_list
     for final_number in number_list:
         if result < final_number:
             result = final_number - result
