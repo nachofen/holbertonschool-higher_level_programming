@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     if roman_string is None or isinstance(roman_string, str) is False:
-        return None
+        return 0
     number_list = []
     result = 0
     for number in roman_string:
