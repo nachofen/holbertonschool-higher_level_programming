@@ -41,12 +41,14 @@ class Square:
         return area
 
     def my_print(self):
-        if self.size == 0:
-            print("")
+        if self.__size == 0:
+            print()
+            return
+        for i in range(self.__position[1]):
+            print()
         spaces = " " * self.__position[0]
-        if self.__position[1] <= 0:
-            for i in range(self.size):
-                print("{}".format(spaces), end="")
-                for j in range(self.size):
-                    print("#", end="")
-                print()
+        for i in range(self.size):
+            print("{}".format(spaces), end="")
+            for j in range(self.size):
+                print("#", end="")
+            print()
