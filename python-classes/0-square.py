@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 class Square:
-    """one line needed"""
+    """smpty Class Square"""
     pass
