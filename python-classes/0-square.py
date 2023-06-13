@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 class Square:
-    # one line needed
+    """one line needed"""
     pass
