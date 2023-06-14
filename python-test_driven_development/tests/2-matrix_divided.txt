@@ -34,3 +34,11 @@ TypeError: object of type 'int' has no len()
 >>> matrix_divided([[2, 2], [2, 2]])
 Traceback (most recent call last):
 TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+>>> matrix_divided([[2, 2], [2, 2] , [2 , 2]], 2)
+Traceback (most recent call last):
+TypeError: matrix_divided() takes 2 positional arguments but 3 were given
+
+>>> matrix_divided(None, 2)
+Traceback (most recent call last):
+TypeError: 'NoneType' object is not subscriptable
