@@ -42,3 +42,7 @@ TypeError: matrix_divided() takes 2 positional arguments but 4 were given
 >>> matrix_divided(None, 2)
 Traceback (most recent call last):
 TypeError: 'NoneType' object is not subscriptable
+
+>>> matrix_divided()
+Traceback (most recent call last):
+TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
