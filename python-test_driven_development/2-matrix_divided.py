@@ -10,8 +10,8 @@ def matrix_divided(matrix, div):
     error = "matrix must be a matrix (list of lists) of integers/floats"
     if div == 0:
         raise ZeroDivisionError("division by zero")
-    elif not isinstance(0, int) and not isinstance(0, float):
-        raise TypeError("division by zero")
+    elif not isinstance(div, int) and not isinstance(div, float):
+        raise TypeError("div must be a number")
     matrix_size = len(matrix[0])
     for col in matrix:
         if matrix_size != len(col):
