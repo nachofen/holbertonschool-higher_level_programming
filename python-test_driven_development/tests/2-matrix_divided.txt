@@ -1,7 +1,7 @@
 >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
 >>> matrix_divided([[2, 2] , [2, 2]], 4)
-[[0.5, 0.5, 0.5, 0.5]]
+[[0.5, 0.5], [0.5, 0.5]]
 
 >>> matrix_divided([[2, 2] , [2, 2]], 0)
 Traceback (most recent call last):
