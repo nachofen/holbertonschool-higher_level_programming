@@ -47,9 +47,10 @@ class TestMaxInteger(unittest.TestCase):
         strings = ["Brennan", "is", "my", "name"]
         self.assertEqual(max_integer(strings), "name")
     
-    def test_empty_string(self):
-        """Test an empty string."""
-        self.assertEqual(max_integer(""), None)
+    def test_max_at_begginning(self):
+        """Test a list with a beginning max value."""
+        max_at_beginning = [4, 3, 2, 1]
+        self.assertEqual(max_integer(max_at_beginning), 4)
 
 
 if __name__ == "__main__":
