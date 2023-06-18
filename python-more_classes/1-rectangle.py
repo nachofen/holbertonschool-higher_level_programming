@@ -6,7 +6,7 @@ This is the "Rectangle with width and height validation"  module.
 
 class Rectangle:
     """ a class that defines a rectangle with width and height as args"""
-    def __init__(self, width, height):
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
