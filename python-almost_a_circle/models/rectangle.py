@@ -82,7 +82,11 @@ class Rectangle(Base):
     def display(self):
         """display the rectangle with #"""
         char = "#"
+        for xs in range(self.y):
+            print()
         for col in range(self.height):
+            for spaces in range(self.x):
+                print(" ", end="")
             for row in range(self.width):
                 print("{}".format(char), end="")
             print()
