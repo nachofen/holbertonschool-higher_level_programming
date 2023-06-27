@@ -32,8 +32,7 @@ class Base:
         if json_string is None or len(json_string) < 1:
             return my_list
         else:
-            my_list.append(json.loads(json_string))
-            return my_list
+            return json.loads(json_string)
 
     @classmethod
     def save_to_file(cls, list_objs):
